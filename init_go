@@ -1,0 +1,4 @@
+export PS1="(go) `echo $PS1` "
+export GOPATH="`pwd`"
+alias deactivate="source ~/.bashrc; unset GOPATH; unset deactivate"
+export PATH=$PATH:$GOPATH/bin
